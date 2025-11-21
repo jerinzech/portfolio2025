@@ -1,7 +1,12 @@
+
+import Header from '../src/components/layout/header';
+
 export default function Home() {
   return (
 
-    <div className="name">Jerin</div>
+    <>
+      <Header />
+    </>
 
 
   );
