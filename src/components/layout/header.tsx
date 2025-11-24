@@ -3,7 +3,7 @@ import React from 'react'
 export default function header() {
   return (
     <>
-      {/* <div className="signageLogo">Jerin James</div>
+      {/* <div className="signageLogo">Jerin Ja es</div>
       <div className="starIcon">Star</div>
       <div className="ctaButtonCombo">
 
@@ -12,17 +12,17 @@ export default function header() {
       </div> */}
 
 
-      <div className=" flex justify-between items-center px-6 py-4">
+      <div className=" flex justify-between items-center px-6 py-8">
         {/* Left - Signage */}
-        < img src="/signage.png" alt="Logo" className="h-8" />
+        < img src="/signage.png" alt="Jerin James" className="h-10 pl-10" />
 
         {/* Middle - Star */}
-        < img src="/star.png" alt="Star" className="h-6" />
+        < img src="/star.png" alt="Star" className="h-10" />
 
         {/* Right - Buttons */}
         < div className="flex gap-3" >
-          <button className="px-4 py-2 border rounded-lg">Button 1</button>
-          <button className="px-4 py-2 bg-black text-white rounded-lg">Button 2</button>
+          <button className="px-4 py-4 rounded-lg">Button 1</button>
+          <button className="px-4 py-4 rounded-lg">Button 2</button>
         </ div >
       </div>
 
