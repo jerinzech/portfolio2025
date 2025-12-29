@@ -29,10 +29,6 @@ export default function Home() {
           </a></div> */}
         </div>
 
-
-
-
-
         <div className="homepage-footer  max-w-360 mx-auto min-h-[3vh]">
           Footer
         </div>
