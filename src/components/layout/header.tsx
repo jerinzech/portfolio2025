@@ -17,13 +17,13 @@ export default function header() {
         < img src="/signage.png" alt="Jerin James" className="h-10 pl-10" />
 
         {/* Middle - Star */}
-        < img src="/star.png" alt="Star" className="h-10" />
+        {/* < img src="/star.png" alt="Star" className="h-10" /> */}
 
         {/* Right - Buttons */}
-        < div className="flex gap-3" >
+        {/* < div className="flex gap-3" >
           <button className="px-4 py-4 rounded-lg">Button 1</button>
           <button className="px-4 py-4 rounded-lg">Button 2</button>
-        </ div >
+        </ div > */}
       </div>
 
 
