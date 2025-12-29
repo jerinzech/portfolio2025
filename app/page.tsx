@@ -9,11 +9,10 @@ export default function Home() {
 
     <>
       <div style={{
-        backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px)`,
+        backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px)`,
         backgroundSize: '20px 20px'
       }}>
-        <div className="homepage-header border max-w-360 mx-auto ">
+        <div className="homepage-header max-w-360 mx-auto ">
           <Header />
         </div>
 
@@ -21,10 +20,10 @@ export default function Home() {
         <BentoGridDemo />
       </div> */}
 
-        <div className="homepage-body border max-w-360 mx-auto min-h-[86vh] flex flex-col justify-center items-center">
+        <div className="homepage-body max-w-360 mx-auto min-h-[86vh] flex flex-col justify-center items-center">
           <CFHomepage />
         </div>
-        <div className="homepage-footer border max-w-360 mx-auto min-h-[3vh]">
+        <div className="homepage-footer max-w-360 mx-auto min-h-[3vh]">
           Footer
         </div>
       </div >

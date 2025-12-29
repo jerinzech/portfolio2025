@@ -2,7 +2,7 @@ import React from 'react'
 
 function CFHomepage() {
   return (
-    <div className="w-1/2 h-[25vh]" >
+    <div className="CFHomepage-text w-1/2 h-[25vh] text-[16px] lg:text-[24px]" >
       <span style={{ fontWeight: 'bold' }}>Hey!</span> I’m <span style={{ fontWeight: 'bold' }}>Jerin James</span>.
       < br />
       I am a visual storyteller and strategist based in Grenoble, France, currently pursuing an MSc in Managing with Data and AI.
