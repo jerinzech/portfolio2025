@@ -20,7 +20,7 @@ export default function Home() {
         <BentoGridDemo />
       </div> */}
 
-        <div className="homepage-body max-w-360 mx-auto min-h-[88vh] flex flex-col justify-center items-center">
+        <div className="homepage-body max-w-360 mx-auto min-h-[87vh] flex flex-col justify-center items-center">
           <CFHomepage />
         </div>
         <div className="homepage-footer  max-w-360 mx-auto min-h-[3vh]">
