@@ -14,7 +14,7 @@ export default function header() {
 
       <div className=" flex justify-between items-center px-6 py-8">
         {/* Left - Signage */}
-        < img src="/signage.png" alt="Jerin James" className="h-10 pl-10" />
+        < img src="/signage.png" alt="Jerin James" className="h-8 pl-10 lg:h-10" />
 
         {/* Middle - Star */}
         {/* < img src="/star.png" alt="Star" className="h-10" /> */}
