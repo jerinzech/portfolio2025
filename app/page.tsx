@@ -1,7 +1,7 @@
 
 import Header from '../src/components/layout/header';
 // import BentoGridDemo from '../src/components/bento/BentoGrid';
-import CustomCursor from '@/src/components/clutterfreeview/CustomCursor.jsx';
+// import CustomCursor from '@/src/components/clutterfreeview/CustomCursor.jsx';
 // import BentoGridDemo from '@/src/components/bento/BentoGrid';
 import CFHomepage from '@/src/components/clutterfreeview/CFHomepage';
 
