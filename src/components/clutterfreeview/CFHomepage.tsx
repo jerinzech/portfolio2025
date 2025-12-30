@@ -78,17 +78,18 @@ function CFHomepage() {
             transition-all duration-300 ease-out
 
             /* 4. Hover State (The Transformation) */
-            hover:bg-white 
-            hover:text-black 
+            hover:bg-[#F0EEE9]
+            hover:text-black
             hover:-translate-y-0.5 
-            hover:shadow-[0_10px_20px_rgba(255,255,255,0.2)]
+            hover:shadow-[0_10px_20px_rgba(240,238,233,0.2)]
           ">
             LinkedIn
-          </a></span>, <span style={{ fontWeight: 'bolder' }}><a
-            href="https://github.com/jerinzech"
-            target="_blank"
-            rel="noreferrer"
-            className="
+          </a></span>, <span style={{ fontWeight: 'bolder' }}>
+            <a
+              href="https://github.com/jerinzech"
+              target="_blank"
+              rel="noreferrer"
+              className="
             /* 1. Base Layout & Positioning */
             inline-block px-2 py-1 rounded-[7px]
             
@@ -99,10 +100,10 @@ function CFHomepage() {
             transition-all duration-300 ease-out
 
             /* 4. Hover State (The Transformation) */
-            hover:bg-white 
+            hover:bg-[#F0EEE9] 
             hover:text-black 
             hover:-translate-y-0.5 
-            hover:shadow-[0_10px_20px_rgba(255,255,255,0.2)]
+            hover:shadow-[0_10px_20px_rgba(240,238,233,0.2)]
           ">Github</a> </span>, <span style={{ fontWeight: 'bolder' }}><a
             href="https://linkedin.com"
             target="_blank"
@@ -118,15 +119,16 @@ function CFHomepage() {
             transition-all duration-300 ease-out
 
             /* 4. Hover State (The Transformation) */
-            hover:bg-white 
+            hover:bg-[#F0EEE9]
             hover:text-black 
             hover:-translate-y-0.5 
-            hover:shadow-[0_10px_20px_rgba(255,255,255,0.2)]
-          ">Resume</a>  </span> and <span style={{ fontWeight: 'bolder' }}><a
-            href="https://photos.app.goo.gl/yHzx75hVmGATTPnv7"
-            target="_blank"
-            rel="noreferrer"
-            className="
+            hover:shadow-[0_10px_20px_rgba(240,238,233,0.2)]
+          ">Resume</a>  </span> and <span style={{ fontWeight: 'bolder' }}>
+            <a
+              href="https://photos.app.goo.gl/yHzx75hVmGATTPnv7"
+              target="_blank"
+              rel="noreferrer"
+              className="
             /* 1. Base Layout & Positioning */
             inline-block px-2 py-1 rounded-[7px]
             
@@ -137,10 +139,10 @@ function CFHomepage() {
             transition-all duration-300 ease-out
 
             /* 4. Hover State (The Transformation) */
-            hover:bg-white 
+            hover:bg-[#F0EEE9]
             hover:text-black 
             hover:-translate-y-0.5 
-            hover:shadow-[0_10px_20px_rgba(255,255,255,0.2)]
+            hover:shadow-[0_10px_20px_rgba(240,238,233,0.2)]
           ">Gallery</a></span> .</p>
 
         {/* < img src="/jerinlineart.png" alt="Jerin James" className="lineartpotrait absolute hidden top-0 right-0 w-2/8 h-auto px-2 py-2" />  */}

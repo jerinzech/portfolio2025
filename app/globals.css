@@ -1,9 +1,17 @@
 @import "tailwindcss";
 
 :root {
+  /* Set the background directly to the dark color */
+  --background: #0a0a0a;
+  /* Set text to a light color so it is visible on the black */
+  --foreground: #f0eee9;
+}
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
-}
+} */
+
 * {
   box-sizing: border-box;
 }
@@ -15,12 +23,12 @@
   --font-mono: var(--font-geist-mono);
 } */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
