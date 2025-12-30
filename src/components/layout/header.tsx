@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function header() {
+export default function Header() {
   return (
     <>
       {/* <div className="signageLogo">Jerin Ja es</div>

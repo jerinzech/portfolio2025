@@ -1,10 +1,10 @@
 
-import Header from '../src/components/layout/header';
+import Header from '../src/components/layout/Header';
 // import BentoGridDemo from '../src/components/bento/BentoGrid';
 // import CustomCursor from '@/src/components/clutterfreeview/CustomCursor.jsx';
 // import BentoGridDemo from '@/src/components/bento/BentoGrid';
 import CFHomepage from '@/src/components/clutterfreeview/CFHomepage';
-
+import Footer from '@/src/components/layout/Footer';
 export default function Home() {
   return (
 
@@ -30,7 +30,7 @@ export default function Home() {
         </div>
 
         <div className="homepage-footer  max-w-360 mx-auto min-h-[3vh]">
-          Footer
+          <Footer />
         </div>
       </div >
 
