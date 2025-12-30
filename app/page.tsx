@@ -1,6 +1,6 @@
-import Header from '../src/components/layout/Header';
+import Header from '../src/components/layout/header';
 import CFHomepage from '../src/components/clutterfreeview/CFHomepage';
-import Footer from '../src/components/layout/Footer';
+import Footer from '../src/components/layout/footer';
 
 export default function Home() {
   return (
