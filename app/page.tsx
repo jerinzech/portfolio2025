@@ -1,7 +1,7 @@
 
 import Header from '../src/components/layout/Header';
-import CFHomepage from '@/src/components/clutterfreeview/CFHomepage';
-import Footer from '@/src/components/layout/Footer';
+import CFHomepage from '../src/components/clutterfreeview/CFHomepage';
+import Footer from '../src/components/layout/Footer';
 
 export default function Home() {
   return (
