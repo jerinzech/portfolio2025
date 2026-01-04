@@ -38,7 +38,6 @@ function CFHomepage() {
               absolute top-100 right-30
               w-100 h-auto
               shadow-2xl rounded-lg object-cover
-              grayscale /* Auto-applies B&W filter */
               z-20
 
               /* --- DEFAULT STATE (Hidden) --- */
