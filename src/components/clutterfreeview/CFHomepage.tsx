@@ -6,7 +6,7 @@ function CFHomepage() {
 
     <>
       <div className="flex flex-col items-center justify-center w-full h-full ">
-        < img src="/grenoblebg.png" alt="Jerin James" className="rounded-3xl m-5 lg:m-8 p-3 lg:pb-5 w-[600px] lg:w-[850px] " />
+        < img src="/grenoblewatercolor.png" alt="Jerin James" className="rounded-3xl m-5 lg:m-8 p-3 lg:pb-5 w-[600px] lg:w-[850px] " />
         <div className="CFHomepage-text flex-row items-center text-justify w-4/5 md:w-2/3 lg:w-[calc(100%*7/12)] h-min text-[15px] lg:text-[20px] font-['Alexandria'] font-extralight tracking-[-0.04em]" >
 
           <p>
@@ -32,7 +32,7 @@ function CFHomepage() {
                 hover:text-white">Jerin James</a>
             </span>
 
-            < img src="/jerinlineartround.png" alt="Jerin James" className="
+            < img src="/jerinwatercolor.png" alt="Jerin James" className="
             /* --- LAYOUT & STYLE --- */
 
               absolute top-100 right-30
