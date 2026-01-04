@@ -26,7 +26,7 @@ export default function Home() {
 
 
 
-        <div className="homepage-body max-w-360 mx-auto min-h-[87vh] flex flex-col justify-center items-center">
+        <div className="homepage-body max-w-360 mx-auto min-h-[87vh] flex flex-col justify-center items-center lg:p-10">
           <CFHomepage />
         </div>
 

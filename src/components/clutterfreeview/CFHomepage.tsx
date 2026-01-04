@@ -5,31 +5,34 @@ function CFHomepage() {
   return (
 
     <>
-      <div className="CFHomepage-text flex-row items-center text-justify w-4/5 md:w-2/3 lg:w-[calc(100%*7/12)] h-min text-[15px] lg:text-[20px] font-['Alexandria'] font-extralight" >
-        <p>
-          <span className="text-[16px] lg:text-[22px]" style={{ fontWeight: 'bold', marginRight: '7px' }}>Hey!! </span>
-          <span className="text-[16px] lg:text-[20px]" style={{ marginRight: '4px' }}>I&apos;m </span>
-          <span className="peer" style={{ fontWeight: 'bolder' }}>
-            <a
-              href="#"
-              target=""
-              rel="noreferrer"
-              className=" peer
+      <div className="flex flex-col items-center justify-center w-full h-full ">
+        < img src="/grenoblebg.png" alt="Jerin James" className="rounded-3xl m-5 lg:m-8 p-5 lg:p-5 w-[600px] lg:w-[850px] " />
+        <div className="CFHomepage-text flex-row items-center text-justify w-4/5 md:w-2/3 lg:w-[calc(100%*7/12)] h-min text-[15px] lg:text-[20px] font-['Alexandria'] font-extralight tracking-[-0.04em]" >
+
+          <p>
+            <span className="text-[16px] lg:text-[22px] " style={{ fontWeight: 'bold', marginRight: '7px' }}>Hey!! </span>
+            <span className="text-[16px] lg:text-[20px]" style={{ marginRight: '4px' }}>I&apos;m </span>
+            <span className="peer" style={{ fontWeight: 'bolder' }}>
+              <a
+                href="#"
+                target=""
+                rel="noreferrer"
+                className=" peer
                 /* 1. Base Layout & Positioning */
                 inline-block  rounded-[7px]
                 
                 /* 2. Initial State (Subtle Text) */
                 text-gray-300 bg-transparent
                 
-                /* 3. Transition Settings (Smoot  hness) */
+                /* 3. Transition Settings (Smoothness) */
                 transition-all duration-300 ease-out
 
                 /* 4. Hover State (The Transformation) */
                 
                 hover:text-white">Jerin James</a>
-          </span>
+            </span>
 
-          < img src="/jerinlineart.png" alt="Jerin James" className="
+            < img src="/jerinlineart.png" alt="Jerin James" className="
             /* --- LAYOUT & STYLE --- */
 
               absolute top-30 right-100
@@ -51,24 +54,24 @@ function CFHomepage() {
               lg:peer-hover:translate-x-0 
               lg:peer-hover:translate-y-0
               lg:peer-hover:scale-100" />
-          .</p>
+            .</p>
 
-        < br />
+          < br />
 
-        <p>I am a <span style={{ fontWeight: 'bolder' }}>visual storyteller</span> and <span style={{ fontWeight: 'bolder' }}>strategist</span> based in <span style={{ fontWeight: 'bolder' }}>Grenoble, France</span>, currently pursuing an <span style={{ fontWeight: 'bolder' }}>MSc in Managing with Data and Artificial Intelligence</span> .</p>
+          <p>I am a <span style={{ fontWeight: 'bolder' }}>visual storyteller</span> and <span style={{ fontWeight: 'bolder' }}>strategist</span> based in <span style={{ fontWeight: 'bolder' }}>Grenoble, France</span>, currently pursuing an <span style={{ fontWeight: 'bolder' }}>MSc in Managing with Data and Artificial Intelligence</span> .</p>
 
-        < br />
+          < br />
 
-        <p>As an aspiring <span style={{ fontWeight: 'bolder' }}>Product Manager</span> and <span style={{ fontWeight: 'bolder' }}>Data Strategist</span>, I bridge the gap between technical AI concepts and tangible business value . My focus is on leveraging Data Analytics and Artificial Intelligence to build user - centric intelligent systems .</p>
+          <p>As an aspiring <span style={{ fontWeight: 'bolder' }}>Product Manager</span> and <span style={{ fontWeight: 'bolder' }}>Data Strategist</span>, I bridge the gap between technical AI concepts and tangible business value . My focus is on leveraging Data Analytics and Artificial Intelligence to build user - centric intelligent systems .</p>
 
-        < br />
+          < br />
 
-        <p>Here&apos;s my <span style={{ fontWeight: 'bolder' }}>
-          <a
-            href="https://www.linkedin.com/in/jerinzjames/"
-            target="_blank"
-            rel="noreferrer"
-            className="
+          <p>Here&apos;s my <span style={{ fontWeight: 'bolder' }}>
+            <a
+              href="https://www.linkedin.com/in/jerinzjames/"
+              target="_blank"
+              rel="noreferrer"
+              className="
             /* 1. Base Layout & Positioning */
             inline-block px-2 py-1 rounded-[7px]
             
@@ -84,14 +87,14 @@ function CFHomepage() {
             hover:-translate-y-0.5 
             hover:shadow-[0_10px_20px_rgba(240,238,233,0.2)]
           ">
-            LinkedIn
-          </a> </span>,
-          <span style={{ fontWeight: 'bolder' }}>
-            <a
-              href="https://github.com/jerinzech"
-              target="_blank"
-              rel="noreferrer"
-              className="
+              LinkedIn
+            </a> </span>,
+            <span style={{ fontWeight: 'bolder' }}>
+              <a
+                href="https://github.com/jerinzech"
+                target="_blank"
+                rel="noreferrer"
+                className="
                 /* 1. Base Layout & Positioning */
                 inline-block px-2 py-1 rounded-[7px]
                 
@@ -107,11 +110,11 @@ function CFHomepage() {
                 hover:-translate-y-0.5 
                 hover:shadow-[0_10px_20px_rgba(240,238,233,0.2)]
           ">Github </a> </span>,
-          <span style={{ fontWeight: 'bolder' }}><a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noreferrer"
-            className="
+            <span style={{ fontWeight: 'bolder' }}><a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noreferrer"
+              className="
               /* 1. Base Layout & Positioning */
               inline-block px-2 py-1 rounded-[7px]
               
@@ -127,11 +130,11 @@ function CFHomepage() {
               hover:-translate-y-0.5 
               hover:shadow-[0_10px_20px_rgba(240,238,233,0.2)]
           ">Resume</a>  </span> and <span style={{ fontWeight: 'bolder' }}>
-            <a
-              href="https://photos.app.goo.gl/yHzx75hVmGATTPnv7"
-              target="_blank"
-              rel="noreferrer"
-              className="
+              <a
+                href="https://photos.app.goo.gl/yHzx75hVmGATTPnv7"
+                target="_blank"
+                rel="noreferrer"
+                className="
                 /* 1. Base Layout & Positioning */
                 inline-block px-2 py-1 rounded-[7px]
                 
@@ -148,11 +151,12 @@ function CFHomepage() {
                 hover:shadow-[0_10px_20px_rgba(240,238,233,0.2)]
           ">Gallery</a></span> .</p>
 
-        {/* < img src="/jerinlineart.png" alt="Jerin James" className="lineartpotrait absolute hidden top-0 right-0 w-2/8 h-auto px-2 py-2" />  */}
+          {/* < img src="/jerinlineart.png" alt="Jerin James" className="lineartpotrait absolute hidden top-0 right-0 w-2/8 h-auto px-2 py-2" />  */}
 
 
 
-      </div >
+        </div >
+      </div>
 
 
 
