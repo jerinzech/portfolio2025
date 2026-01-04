@@ -51,7 +51,8 @@ function Footer() {
 
 
   return (
-    <div className='flex flex-row items-center justify-center'> {dateString} <span style={{ marginRight: '2rem', marginLeft: '2rem' }}>|</span> {time} </div>
+    <div className="flex flex-row items-center justify-center text-[15px] lg:text-[16px] font-['Alexandria'] font-regular tracking-[-0.04em]" > {dateString} <span style={{ marginRight: '2rem', marginLeft: '2rem' }
+    }>|</span> {time} </div >
   )
 }
 
