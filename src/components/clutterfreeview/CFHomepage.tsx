@@ -6,7 +6,7 @@ function CFHomepage() {
 
     <>
       <div className="flex flex-col items-center justify-center w-full h-full ">
-        < img src="/grenoblebg.png" alt="Jerin James" className="rounded-3xl m-5 lg:m-8 p-5 lg:p-5 w-[600px] lg:w-[850px] " />
+        < img src="/grenoblebg.png" alt="Jerin James" className="rounded-3xl m-5 lg:m-8 p-3 lg:pb-5 w-[600px] lg:w-[850px] " />
         <div className="CFHomepage-text flex-row items-center text-justify w-4/5 md:w-2/3 lg:w-[calc(100%*7/12)] h-min text-[15px] lg:text-[20px] font-['Alexandria'] font-extralight tracking-[-0.04em]" >
 
           <p>
@@ -32,10 +32,10 @@ function CFHomepage() {
                 hover:text-white">Jerin James</a>
             </span>
 
-            < img src="/jerinlineart.png" alt="Jerin James" className="
+            < img src="/jerinlineartround.png" alt="Jerin James" className="
             /* --- LAYOUT & STYLE --- */
 
-              absolute top-30 right-100
+              absolute top-100 right-30
               w-100 h-auto
               shadow-2xl rounded-lg object-cover
               grayscale /* Auto-applies B&W filter */
@@ -49,9 +49,9 @@ function CFHomepage() {
               /* --- HOVER STATE (PC Only) --- 
                 'lg:peer-hover:' means: On Large screens, when the peer (Name) is hovered...
               */
-              lg:peer-hover:opacity-100 
-              lg:peer-hover:visible 
-              lg:peer-hover:translate-x-0 
+              lg:peer-hover:opacity-100
+              lg:peer-hover:visible
+              lg:peer-hover:translate-x-0
               lg:peer-hover:translate-y-0
               lg:peer-hover:scale-100" />
             .</p>
